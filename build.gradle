@@ -5,3 +5,8 @@ gretty {
   servletContainer = 'jetty9'
   contextPath = '/'
 }
+
+dependencies {
+  compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.1'
+
+}
